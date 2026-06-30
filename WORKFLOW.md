@@ -118,8 +118,52 @@ Generated to validate quality:
 
 ---
 
+## جِوار brand identity — kickoff prompt (paste into a fresh, Magnific-authorized session)
+
+> The brief and decisions below were approved. A running session can't pick up
+> connector auth done after it started — so start a NEW session with Magnific
+> Connected, then paste this:
+
+```
+Build the جِوار brand identity into my existing Magnific Space (the one with my
+uploaded logo). جِوار is a local neighbourhood food-ordering service: customers
+order from nearby restaurants and get food via the restaurant's own local delivery
+or curbside pickup to their car. Warm, honest, community-rooted; Arabic-first.
+The name جِوار means "neighbourhood".
+
+First pull my assets (creations_list / library_list) and find my logo plus my
+reference images for: (1) someone handing over an order with the logo on the bag,
+(2) a customer in a car in front of a store scanning a barcode to order from the car,
+(3) a delivery person handing over an order, (4) a coffee cup with the logo.
+
+Then generate 4 SQUARE (1:1) images with Nano Banana Pro, each using the logo +
+its matching reference image:
+  1. Order handoff (logo on the bag)
+  2. Curbside / in-car barcode scan ordering
+  3. Local delivery handoff
+  4. Coffee cup with the logo
+
+Rules for all images: warm and clean; one consistent palette (the logo's green +
+orange + warm cream neutrals); same lighting/theme so they read as one family;
+NO text in the images (I'll add Arabic myself). People do NOT need to look Saudi.
+Build these as nodes in the SAME existing Space.
+
+Finally, after actually viewing my logo, write a full logo design explanation
+(meaning of جِوار / neighbourhood, color rationale, usage guidance).
+```
+
+### Approved decisions
+- Square (1:1) images.
+- No text in any generated image (added manually in Arabic later).
+- People need NOT look Saudi.
+- Model: Nano Banana Pro (brand/logo fidelity).
+- Palette: logo green + orange + warm cream neutrals; warm & clean; consistent across all.
+- Build into the existing Space (not a new one).
+- Note: connector auth must be live at session start — re-auth done mid-session does not apply.
+
 ## Open items / next steps
 
+- [ ] Run the جِوار kickoff prompt above in a Magnific-authorized session.
 - [ ] Decide the real home repo for this workflow (Curbside) and re-scope a session to it.
 - [ ] Build per-service Spaces (Menu builder, Social pack, Full brand kit).
 - [ ] Set specific aspect ratios in the brand-kit Space.
